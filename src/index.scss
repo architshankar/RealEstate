@@ -11,5 +11,7 @@ a{
 
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: #f5f5f5;
+    background-color: #ffffff;
+    overflow-x: hidden; /* Hide vertical scrollbar */
+    overflow-y: auto; 
 }

@@ -5,7 +5,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  
   a {
     transition: all 0.4s ease;
 
@@ -51,7 +51,7 @@ nav {
     flex: 2;
     align-items: center;
     justify-content: flex-end;
-    background-color: #fff0ec;
+    background-color: #fcf5f3;
     height: 100%;
 
     @include md {
