@@ -7,6 +7,8 @@ import {
 import ListPage from "./routes/listPage/ListPage";
 import Homepage from "./routes/homepage/Homepage";
 import SinglePage from "./routes/singlePage/SinglePage";
+import ProfilePage from "./routes/profile/ProfilePage";
+import ProfileUpdatePage from "./routes/profileUpdatePage/ProfileUpdatePage";
 
 
 
@@ -28,6 +30,14 @@ function App() {
         {
           path: "/:id",
           element: <SinglePage/>
+        },
+        {
+          path: "/profile",
+          element: <ProfilePage/>
+        },
+        {
+          path: "/profileUpdate",
+          element: <ProfileUpdatePage/>
         },
       ]
     },
