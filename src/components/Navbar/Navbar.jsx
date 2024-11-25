@@ -14,10 +14,10 @@ function Navbar() {
           <img src="/logo.png" alt="" />
           <span>DalalEstate</span>
         </a>
-        <Link href="/">Home</Link>
-        <Link href="list">List</Link>
-        <Link href="/dashboard">Dashboard</Link>
-        <Link href="/">Agents</Link>
+        <Link do="/">Home</Link>
+        <Link do="list">List</Link>
+        <Link do="/dashboard">Dashboard</Link>
+        <Link do="/">Agents</Link>
       </div>
       <div className="right">
         {user ? (
