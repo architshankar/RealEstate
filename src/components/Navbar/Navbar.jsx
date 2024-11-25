@@ -15,7 +15,7 @@ function Navbar() {
           <span>DalalEstate</span>
         </a>
         <a href="/">Home</a>
-        <a href="/list">List</a>
+        <a href="list">List</a>
         <a href="/dashboard">Dashboard</a>
         <a href="/">Agents</a>
       </div>
